@@ -9,23 +9,48 @@ body, html {
     min-height: 100vh;
 }
 
+body{
+    display: flex;
+}
+
 /* Colors of sections */
 .header{
     background-color: #adff2f;
+    flex-grow: 1;
+    padding: 15px;
 }
 
 .article{
     background-color: #ffffff;
+    flex-grow: 2;
+    padding: 15px;
 }
 
 .aside{
-    background-color: #fafad2	;
+    background-color: #fafad2;
+    flex-grow: 1;
+    padding: 15px;
 }
 
 .nav{
     background-color: #add8e6;
+    flex-grow: 1;
+    padding: 15px;
 }
 
 .footer{
     background-color: #adff2f;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.right-part{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+
+.inner-right-part{
+    display: flex;
+    flex-grow: 3;
 }
