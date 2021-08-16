@@ -1,0 +1,31 @@
+/* applying css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Resets the box-model so that width and height are not affected by border or padding.*/
+}
+
+body, html {
+    min-height: 100vh;
+}
+
+/* Colors of sections */
+.header{
+    background-color: #adff2f;
+}
+
+.article{
+    background-color: #ffffff;
+}
+
+.aside{
+    background-color: #fafad2	;
+}
+
+.nav{
+    background-color: #add8e6;
+}
+
+.footer{
+    background-color: #adff2f;
+}
