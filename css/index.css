@@ -38,6 +38,12 @@ body{
     padding: 15px;
 }
 
+@media screen and (max-width: 600px){
+    .nav{
+        display: none;
+    }
+}
+
 .footer{
     background-color: #adff2f;
     flex-grow: 1;
@@ -53,4 +59,10 @@ body{
 .inner-right-part{
     display: flex;
     flex-grow: 3;
+}
+
+@media screen and (max-width: 600px){
+    .inner-right-part{
+        flex-direction: column;
+    }
 }
